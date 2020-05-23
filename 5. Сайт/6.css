@@ -1,0 +1,931 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 406px;
+    width: 100%;
+}
+
+.topBar {
+    height: 45px;
+    width: 100%;
+    background-color: #363636;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Currency {
+    height: 20px;
+    width: 120px;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CurrTxt > span {
+    font-family: 'Myriad Pro';
+    font-size: 16px;
+    color: #777777;
+}
+
+.CurShow {
+    height: 71px;
+    width: 170px;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrowCurr {
+    cursor: pointer;
+}
+
+.CurrLink {
+    height: 80px;
+    width: 60px;
+    background-color: aliceblue;
+    z-index: 1;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CurrLink > a {
+    width: 100%;
+    text-decoration: none;
+    color: dimgray;
+    border-bottom: 0.02px solid silver;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Register {
+    height: 20px;
+    width: 140px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Register > a {
+    font-family: 'Myriad Pro';
+    font-size: 16px;
+    color: #777777;
+    text-decoration: none;
+}
+
+.Empty {
+    height: 45px;
+    width: 157px;
+    background-color: #70c7c7;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Empty > span {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Myriad Pro';
+}
+
+.EmptyButton {
+    margin-left: 7px;
+}
+
+.topBarRight {
+    height: 100%;
+    width: 400px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sliderContainer {
+    height: 600px;
+    width: 100%;
+}
+
+.bacgraundSlider {
+    height: 250px;
+    width: 100%;
+    background: url(galary_pagine_6/banner.png) 0 0 no-repeat;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banerText {
+    font-size: 33px;
+    color: #ffffff;
+    font-family: 'Myriad Pro';
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.banerTxt {
+    font-size: 23px;
+    color: #ffffff;
+    font-family: 'Myriad Pro';
+    color: #ffffff;
+    font-family: 'Myriad Pro';
+    text-transform: uppercase;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: #f8f8f8;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nvLogoLink {
+    height: 70%;
+    width: 90%;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.navLogo {
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navLogo > span {
+    font-weight: 900;
+}
+
+.navLink {
+    height: 60%;
+    width: 500px;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-left: 160px;
+}
+
+.nvLinks {
+    height: 100%;
+    width: 60px;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+.nvLinksTxt > a {
+    text-decoration: none;
+    color: #272727;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.nvLinksTxt > a:hover {
+    color: #70c7c7;
+    transition: 0.3s;
+}
+
+.nvLinksTxt {
+    height: 100%;
+    width: 105px;
+}
+
+.nvLinks_1 {
+    height: 100%;
+    width: 50px;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.nvLinks_1 > a {
+    text-decoration: none;
+    color: #272727;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.nvLinks_1 > a:hover {
+    color: #70c7c7;
+    transition: 0.3s;
+}
+
+.nvLinks_1 {
+    height: 100%;
+    width: 50px;
+    margin-right: -17px;
+}
+
+.nvLinks_2 {
+    height: 100%;
+    width: 50px;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.nvLinks_2 > a {
+    text-decoration: none;
+    color: #272727;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+.nvLinks_2 > a:hover {
+    color: #70c7c7;
+    transition: 0.3s;
+}
+
+.navOne {
+    height: 100%;
+    width: 260px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.navTwo {
+    height: 100%;
+    width: 190px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.navSearch {
+    height: 28px;
+    width: 188px;
+    
+    display: flex;
+    margin-right: -50px;
+}
+
+.navSearch > input {
+    height: 28px;
+    width: 188px;
+    border: none;
+    border: 1px solid #e6e6e6;
+}
+
+.navSearch > img {
+    margin-left: -20px;
+    margin-top: 8px;    
+}
+
+.sloderBTN  > a:hover { 
+    background-color: #70c7c7;
+    color: #fff;
+    border: 2px solid #70c7c7;
+    transition: 0.3s;
+}
+
+
+.arrowicon:hover {
+    cursor: pointer;
+}
+
+.sub_bar {
+    position: absolute;
+    bottom: 10px;
+    left: 490px;
+    height: 518px;
+    width: 465px;
+    background-color: #f8f8f8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub_barInfo {
+    height: 60%;
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_barAdvertising {
+    height: 201px;
+    width: 90%;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #363636;
+    font-family: 'Work Sans', sans-serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20PX;
+}
+
+.sub_barInfoCasuals {
+    height: 90%;
+    width: 40%;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.sub_barInfoFornal {
+    height: 90%;
+    width: 55%;
+}
+    
+.sub_burHeader {
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    color: #575153;
+    font-weight: 600;
+}
+
+.sub_burTxt {
+    height: 250px;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.sub_burTxt > a {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+.sub_burTxt_2 {
+    height: 160px;
+    width: 100%;
+    margin-top: 16px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.sub_burTxt_2 > a {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+.mod_btn {
+    height: 500px;
+    width: 93%;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.arrowiconLB {
+    cursor: pointer;
+}
+
+
+
+
+.mod_Lookbook {
+    height: 470px;
+    width: 30%;
+    background-color: #f8f8f8;
+    position: absolute;
+    bottom: 60px;
+    right: 120px;
+    z-index: 1;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_barLB {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub_barLInfo {
+    height: 40%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub_barLBInfo {
+    height: 160px;
+    width: 40%;
+    margin-top: 20px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.sub_burLBTxt {
+    height: 110px;
+    width: 170px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.sub_burLBTxt > a{
+    text-decoration: none;
+    color: #717171;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Item {
+    height: 500px;
+    width: 100%;
+    margin-top: 80px;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.SignUpIttems {
+    height: 50%;
+    width: 36%;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.RegisterItems {
+    height: 60%;
+    width: 45%;
+    border-left: 1px solid #ededed;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.SignUpHeader {
+    text-transform: uppercase;
+    color: #575153;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+.SignUpMessage {
+    height: 200px;
+    width: 410px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.SignUpMessage > input {
+    height: 35px;
+    width: 400px;
+    color: #969696;
+    border: 0.900px solid #969696;
+    border-radius: 3px;
+}
+
+.LinkPasword {
+    color: #70c7c7;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+
+.LinkSing {
+    background-color: #ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #70c7c7;
+    font-size: 15px;
+    border: 1px solid #70c7c7;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.LinkSing:hover {
+    background-color: #70c7c7;
+    color: #ffffffff;
+    transition: 0.4s;
+}
+
+.SignUpBTN {
+    height: 50px;
+    width: 400px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CeckBoxLabel {
+    color: #8c8b8b;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.checkbox {
+    height: 25px;
+    width: 25px;
+    border: 1px;
+    color: #ffffff;
+}
+
+.RegisterHeader {
+    text-transform: uppercase;
+    color: #575153;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.RegisterInput {
+    height: 150px;
+    width: 100%;
+    margin-left: 50px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.RegisterInput > input {
+    height: 35px;
+    width: 400px;
+    color: #969696;
+    border: 0.900px solid #969696;
+    border-radius: 3px;
+}
+
+.CheckLabel {
+    height: 50px;
+    width: 97%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Create {
+    height: 70px;
+    width: 80%;
+    margin-left: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.CreateAccount {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: #474849;
+    text-decoration: none;
+    border: 1px solid #474849;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 33px;
+    padding-right: 33px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.CreateAccount:hover {
+    background-color: #474849;
+    color: #ffff;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mod_Lookbook {
+    height: 470px;
+    width: 30%;
+    background-color: #f8f8f8;
+    position: absolute;
+    bottom: 20px;
+    right: 120px;
+    z-index: 1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_barLB {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub_barLInfo {
+    height: 40%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub_barLBInfo {
+    height: 160px;
+    width: 40%;
+    margin-top: 20px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.sub_burLBTxt {
+    height: 110px;
+    width: 170px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.sub_burLBTxt > a{
+    text-decoration: none;
+    color: #717171;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    height: 590px;
+    width: 100%;
+    background-color: #f8f8f8;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerInfo {
+    height: 270px;
+    width: 90%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerContact {
+    height: 270px;
+    width: 90%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerInfoContainer {
+    height: 80%;
+    width: 260px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.footerInfoContainerLast {
+    height: 80%;
+    width: 380px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.ContainerHeader > span {
+    font-size: 18px;
+    color: #575153;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.ContainerText {
+    height: 80%;
+    width: 80%;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.ContainerText > a {
+    font-size: 15px;
+    color: #727272;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+
+.ContainerText > a:hover {
+    color: #00c8c8;
+    transition: 0.3s;
+}
+
+.ContainerTextLast {
+    height: 60%;
+    width: 85%;
+    margin-bottom: 43px;
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.ContainerTextLast > a{
+    font-size: 15px;
+    color: #727272;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+
+.txtContact > a{
+    font-size: 15px;
+    color: #727272;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.txtContact {
+    font-size: 15px;
+    color: #727272;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: -5px;
+}
+
+.footerContactReclama {
+    height: 80%;
+    width: 45%;
+    background-color: #333333;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContactReclama > span {
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+}
+
+.footerContactSocial {
+    height: 80%;
+    width: 45%;
+    background-color: #00c8c8;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerContactSocialIcon {
+    height: 40%;
+    width: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.footerTwo {
+    height: 47px;
+    width: 100%;
+    background-color: #333333;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerTwotextOne {
+    height: 20px;
+    width: 200px;
+}
+
+.footerTwotextOne > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #999999;
+}
+
+.footerTwotextTwo {
+    height: 20px;
+    width: 370px;
+}
+
+.footerTwotextTwo > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #999999;
+}
+
+
+
+
